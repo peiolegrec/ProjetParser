@@ -18,6 +18,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	NSURL * feedURL = [NSURL URLWithString:@"http://feeds2.feedburner.com/Pressecitron"];
+	NSURLRequest * feedRequest = [[NSURLRequest alloc] initWithURL:feedURL];
+	NSURLConnection * feedConnection = [[NSURLConnection alloc] initWithRequest:feedRequest delegate:self]; 
+	@"http://feeds2.feedburner.com/Pressecitron"
+	+ (NSDictionary *)dictionaryForXMLString:(NSString *)string error:(NSError **)errorPointer;
+
 }
 
 - (void)didReceiveMemoryWarning

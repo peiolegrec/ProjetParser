@@ -23,6 +23,7 @@
 		4031656116F8F77500531C1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4031653C16F8F77300531C1A /* Foundation.framework */; };
 		4031656916F8F77500531C1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4031656716F8F77500531C1A /* InfoPlist.strings */; };
 		4031656C16F8F77500531C1A /* ProjetParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4031656B16F8F77500531C1A /* ProjetParserTests.m */; };
+		4031657716F8F7D600531C1A /* PeioParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4031657616F8F7D600531C1A /* PeioParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		4031656816F8F77500531C1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4031656A16F8F77500531C1A /* ProjetParserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjetParserTests.h; sourceTree = "<group>"; };
 		4031656B16F8F77500531C1A /* ProjetParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjetParserTests.m; sourceTree = "<group>"; };
+		4031657516F8F7D600531C1A /* PeioParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeioParser.h; sourceTree = "<group>"; };
+		4031657616F8F7D600531C1A /* PeioParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeioParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 		4031652E16F8F77300531C1A = {
 			isa = PBXGroup;
 			children = (
+				4031657516F8F7D600531C1A /* PeioParser.h */,
+				4031657616F8F7D600531C1A /* PeioParser.m */,
 				4031654016F8F77300531C1A /* ProjetParser */,
 				4031656416F8F77500531C1A /* ProjetParserTests */,
 				4031653916F8F77300531C1A /* Frameworks */,
@@ -273,6 +278,7 @@
 				4031654716F8F77300531C1A /* main.m in Sources */,
 				4031654B16F8F77300531C1A /* AppDelegate.m in Sources */,
 				4031655416F8F77400531C1A /* ViewController.m in Sources */,
+				4031657716F8F7D600531C1A /* PeioParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
